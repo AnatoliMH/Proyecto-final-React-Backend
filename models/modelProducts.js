@@ -5,9 +5,9 @@ const productSchema = new Schema({
   name: String,
   relevance: Number,
   price: Number,
+  developer: String,
   manufacter: {
     _id: { type: Schema.Types.ObjectId, ref: "Manufacter" },
-    name: String,
   },
 });
 

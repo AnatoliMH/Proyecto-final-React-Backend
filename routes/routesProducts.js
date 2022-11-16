@@ -71,7 +71,6 @@ router.get("/search", async (req, res) => {
     );
   } else {
     docs = await servicesProducts.getAllProducts(
-      manufacter,
       page,
       orderField,
       order

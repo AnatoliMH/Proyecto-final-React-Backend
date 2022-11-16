@@ -15,9 +15,9 @@ const escapeRegex = (text) => {
   return text.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, "\\$&");
 };
 
-const getAllProducts = async (manufacter, page, orderField, order) => {
+const getAllProducts = async (page, orderField, order) => {
   const docs = await Products.paginate(
-    {  },
+    { },
     { page, sort: { [`${orderField}`]: order }, limit: PAG_LIMIT }
   );
   return docs;

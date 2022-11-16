@@ -5,48 +5,56 @@ const products = [
     relevance: 5,
     price: 10,
     manufacter: "A60695814",
+    developer: "UBISOFT"
   },
   {
     name: "ASSASSIN'S CREED III",
     relevance: 2,
     price: 15,
     manufacter: "A60695814",
+    developer: "UBISOFT"
   },
   {
     name: "ASSASSIN'S CREED: ORIGINS",
     relevance: 4,
     price: 15,
     manufacter: "A60695814",
+    developer: "UBISOFT"
   },
   {
     name: "ASSASSIN'S CREED: ODYSSEY",
     relevance: 5,
     price: 25,
     manufacter: "A60695814",
+    developer: "UBISOFT"
   },
   {
     name: "ASSASSIN'S CREED: VALHALLA",
     relevance: 5,
     price: 35,
     manufacter: "A60695814",
+    developer: "UBISOFT"
   },
   {
     name: "WHATCH DOGS",
     relevance: 2,
     price: 10,
     manufacter: "A60695814",
+    developer: "UBISOFT"
   },
   {
     name: "WHATCH DOGS 2",
     relevance: 3,
     price: 10,
     manufacter: "A60695814",
+    developer: "UBISOFT"
   },
   {
     name: "WHATCH DOGS: LEGION",
     relevance: 4,
     price: 15,
     manufacter: "A60695814",
+    developer: "UBISOFT"
   },
   // NINTENDO (10)
   {
